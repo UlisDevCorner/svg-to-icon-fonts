@@ -1,12 +1,22 @@
 {
   "name": "svg-to-icon-fonts",
   "version": "1.0.0",
-  "description": "Add a description for svg-to-icon-fonts",
+  "description": "___",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Uli Klug <info@ulisdevcorner.com>",
+  "license": "MIT",
+  "config": {
+    "svgDir": "my-icons",
+    "iconFontDir": "icon-dist"
   },
-  "keywords": [],
-  "author": "Ulrich Klug <info@ulrichklug.com>",
-  "license": "MIT"
+  "scripts": {
+    "delMakeIconFontDir": "del-cli %npm_package_config_iconFontDir% && mkdirp %npm_package_config_iconFontDir%",
+    "iconFonts": "fantasticon %npm_package_config_svgDir% -o %npm_package_config_iconFontDir% -g css scss sass html json ts",
+    "createIconFonts": "npm run delMakeIconFontDir && npm run iconFonts"
+  },
+  "devDependencies": {
+    "@pluslab/fantasticon": "^1.4.3",
+    "del-cli": "^4.0.1",
+    "mkdirp": "^1.0.4"
+  }
 }

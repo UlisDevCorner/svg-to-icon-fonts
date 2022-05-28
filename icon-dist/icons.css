@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?62ca9fca1ba5b629c1d86cb6c46e2caa#iefix") format("embedded-opentype"),
+url("./icons.woff2?62ca9fca1ba5b629c1d86cb6c46e2caa") format("woff2"),
+url("./icons.woff?62ca9fca1ba5b629c1d86cb6c46e2caa") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alpha-lc:before {
+    content: "\f101";
+}
+.icon-beta-lc:before {
+    content: "\f102";
+}
+.icon-chi-lc:before {
+    content: "\f103";
+}
+.icon-delta-lc:before {
+    content: "\f104";
+}
+.icon-epsilon-lc:before {
+    content: "\f105";
+}
+.icon-eta-lc:before {
+    content: "\f106";
+}
+.icon-gamma-lc:before {
+    content: "\f107";
+}
+.icon-kappa-lc:before {
+    content: "\f108";
+}
+.icon-lambda-lc:before {
+    content: "\f109";
+}
+.icon-lota-lc:before {
+    content: "\f10a";
+}
+.icon-mu-lc:before {
+    content: "\f10b";
+}
+.icon-nu-lc:before {
+    content: "\f10c";
+}
+.icon-omega-lc:before {
+    content: "\f10d";
+}
+.icon-omicron-lc:before {
+    content: "\f10e";
+}
+.icon-phi-lc:before {
+    content: "\f10f";
+}
+.icon-pi-lc:before {
+    content: "\f110";
+}
+.icon-psi-lc:before {
+    content: "\f111";
+}
+.icon-rho-lc:before {
+    content: "\f112";
+}
+.icon-sigma-lc:before {
+    content: "\f113";
+}
+.icon-t:before {
+    content: "\f114";
+}
+.icon-tau-lc:before {
+    content: "\f115";
+}
+.icon-theta-lc:before {
+    content: "\f116";
+}
+.icon-upsilon-lc:before {
+    content: "\f117";
+}
+.icon-xi-lc:before {
+    content: "\f118";
+}
+.icon-zeta-lc:before {
+    content: "\f119";
+}

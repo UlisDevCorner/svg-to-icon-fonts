@@ -1,0 +1,97 @@
+$icons-font: "icons"
+
+@font-face
+    font-family: $icons-font
+    src: url("./icons.eot?62ca9fca1ba5b629c1d86cb6c46e2caa#iefix") format("embedded-opentype"),
+url("./icons.woff2?62ca9fca1ba5b629c1d86cb6c46e2caa") format("woff2"),
+url("./icons.woff?62ca9fca1ba5b629c1d86cb6c46e2caa") format("woff")
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before
+    font-family: icons !important
+    font-style: normal
+    font-weight: normal !important
+    font-variant: normal
+    text-transform: none
+    line-height: 1
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+
+$icons-map: (
+    "alpha-lc": "\f101",
+    "beta-lc": "\f102",
+    "chi-lc": "\f103",
+    "delta-lc": "\f104",
+    "epsilon-lc": "\f105",
+    "eta-lc": "\f106",
+    "gamma-lc": "\f107",
+    "kappa-lc": "\f108",
+    "lambda-lc": "\f109",
+    "lota-lc": "\f10a",
+    "mu-lc": "\f10b",
+    "nu-lc": "\f10c",
+    "omega-lc": "\f10d",
+    "omicron-lc": "\f10e",
+    "phi-lc": "\f10f",
+    "pi-lc": "\f110",
+    "psi-lc": "\f111",
+    "rho-lc": "\f112",
+    "sigma-lc": "\f113",
+    "t": "\f114",
+    "tau-lc": "\f115",
+    "theta-lc": "\f116",
+    "upsilon-lc": "\f117",
+    "xi-lc": "\f118",
+    "zeta-lc": "\f119",
+)
+
+.icon-alpha-lc:before
+    content: map-get($icons-map, "alpha-lc")
+.icon-beta-lc:before
+    content: map-get($icons-map, "beta-lc")
+.icon-chi-lc:before
+    content: map-get($icons-map, "chi-lc")
+.icon-delta-lc:before
+    content: map-get($icons-map, "delta-lc")
+.icon-epsilon-lc:before
+    content: map-get($icons-map, "epsilon-lc")
+.icon-eta-lc:before
+    content: map-get($icons-map, "eta-lc")
+.icon-gamma-lc:before
+    content: map-get($icons-map, "gamma-lc")
+.icon-kappa-lc:before
+    content: map-get($icons-map, "kappa-lc")
+.icon-lambda-lc:before
+    content: map-get($icons-map, "lambda-lc")
+.icon-lota-lc:before
+    content: map-get($icons-map, "lota-lc")
+.icon-mu-lc:before
+    content: map-get($icons-map, "mu-lc")
+.icon-nu-lc:before
+    content: map-get($icons-map, "nu-lc")
+.icon-omega-lc:before
+    content: map-get($icons-map, "omega-lc")
+.icon-omicron-lc:before
+    content: map-get($icons-map, "omicron-lc")
+.icon-phi-lc:before
+    content: map-get($icons-map, "phi-lc")
+.icon-pi-lc:before
+    content: map-get($icons-map, "pi-lc")
+.icon-psi-lc:before
+    content: map-get($icons-map, "psi-lc")
+.icon-rho-lc:before
+    content: map-get($icons-map, "rho-lc")
+.icon-sigma-lc:before
+    content: map-get($icons-map, "sigma-lc")
+.icon-t:before
+    content: map-get($icons-map, "t")
+.icon-tau-lc:before
+    content: map-get($icons-map, "tau-lc")
+.icon-theta-lc:before
+    content: map-get($icons-map, "theta-lc")
+.icon-upsilon-lc:before
+    content: map-get($icons-map, "upsilon-lc")
+.icon-xi-lc:before
+    content: map-get($icons-map, "xi-lc")
+.icon-zeta-lc:before
+    content: map-get($icons-map, "zeta-lc")
