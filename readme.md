@@ -1,11 +1,26 @@
-# SVG to Icon Fonts
-___
+![Collapse & Expand HTML Block Elements CSS & JS](./readme/images/svg-to-icon-fonts-835x346.jpg)
 
-## Icon Font Example
+## Intro
+To run this project first you have to install the npm packages with
+
+```
+npm i
+```
+
+Then you can run it either in the package.json file, the last script createIconFonts, or you run this command in the terminal.
+
+```
+npm run createIconFonts
+```
+## YouTube
+You can find the video to this repo at this link.  
+[**YouTube**: SVG to Icon Fonts](https://www.youtube.com/watch?v=ooCLkjZcCiA)
+
+### Icon Font Example
 
 [Fontawesome](https://fontawesome.com/icons)
 
-## Install and Set Up
+### Install and Set Up
 [**NPM**: fantasticon](https://www.npmjs.com/package/fantasticon)
 ```
 npm init -y
@@ -86,9 +101,8 @@ Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimen
 
 [**NPM**: del-cli](https://www.npmjs.com/package/del-cli)
 
-`npm i -D del-cli mkdirp`
-
 ### mkdirp
 
 [**NPM**: mkdirp](https://www.npmjs.com/package/mkdirp)
 
+`npm i -D del-cli mkdirp`
